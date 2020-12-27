@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+:root{
+  --color0 : #f9f7f7;
+  --color1 : #900c3f;
+  --color2 : #9e715d;
+  --color3 : #511845;
+
+}
+.header__navBar{
+    background-color: var(--color1);
+    min-height: 90px;
+}
+
+.main{
+    background-color: var(--color0);
+    margin-top: 90px;
+    min-height: calc(100vh - 90px - 130px);
+}
+
+.footer{
+    background-color: var(--color2);
+    min-height: 130px;
+}
+
+/* codigo adicional para visualizar el layout */
+
+.publicity{
+  min-height: 80vh;
+  border: 1px solid var(--color3);
+}
+
+
+.menu,
+.order{
+  border: 1px solid var(--color3);
+  min-height: 800px;
+}
