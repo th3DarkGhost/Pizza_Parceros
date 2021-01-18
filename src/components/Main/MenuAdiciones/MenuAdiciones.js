@@ -3,7 +3,13 @@ import React from "react";
 export const MenuAdiciones = () => {
   return (
     <>
-      <div>Este es el Menu Adiciones</div>
+      <div className="MenuBox__Item"></div>
+      <div className="MenuBox__Item"></div>
+      <div className="MenuBox__Item"></div>
+      <div className="MenuBox__Item"></div>
+      <div className="MenuBox__Item"></div>
+      <div className="MenuBox__Item"></div>
+      <div className="MenuBox__Item"></div>
     </>
   );
 };

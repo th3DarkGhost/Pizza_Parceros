@@ -1,9 +1,18 @@
 import React from "react";
+import "./MenuPizzas.scss";
 
 export const MenuPizzas = () => {
   return (
     <>
-      <div>Este es Menu Pizzas</div>
+      <div className="AreaMenu__Item"></div>
+      <div className="AreaMenu__Item"></div>
+      <div className="AreaMenu__Item"></div>
+      <div className="AreaMenu__Item"></div>
+      <div className="AreaMenu__Item"></div>
+      <div className="AreaMenu__Item"></div>
+      <div className="AreaMenu__Item"></div>
+      <div className="AreaMenu__Item"></div>
+      <div className="AreaMenu__Item"></div>
     </>
   );
 };

@@ -3,7 +3,15 @@ import React from "react";
 export const MenuPostres = () => {
   return (
     <>
-      <div>Este es el Menu Postres</div>
+      <div className="AreaMenu__Item"></div>
+      <div className="AreaMenu__Item"></div>
+      <div className="AreaMenu__Item"></div>
+      <div className="AreaMenu__Item"></div>
+      <div className="AreaMenu__Item"></div>
+      <div className="AreaMenu__Item"></div>
+      <div className="AreaMenu__Item"></div>
+      <div className="AreaMenu__Item"></div>
+      <div className="AreaMenu__Item"></div>
     </>
   );
 };
