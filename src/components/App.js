@@ -1,7 +1,9 @@
-import "./App.css";
-import "../../node_modules/bootstrap/dist/css/bootstrap.css";
+// Imports 
 
-// Importo componentes
+import "./App.scss";
+
+// Componentes
+
 import { Header } from "./Header/Header";
 import { Main } from "./Main/Main";
 import { Footer } from "./Footer/Footer";

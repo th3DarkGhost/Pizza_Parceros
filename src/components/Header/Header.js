@@ -1,11 +1,13 @@
 import React from 'react';
-import '../../../node_modules/bootstrap/dist/css/bootstrap.css';
+import "./Header.scss";
 
 export const Header = () => {
   return (
     <>
-      <header className='row'>
-        <nav className='navbar fixed-top header__navBar'></nav>
+      <header>
+        <div className="HeaderContainer">
+          <nav className='HeaderContainer__NavBar'></nav>
+        </div>
       </header>
     </>
   );

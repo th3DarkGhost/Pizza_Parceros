@@ -1,10 +1,10 @@
 import React from 'react';
-import '../../../node_modules/bootstrap/dist/css/bootstrap.css';
+import "./Footer.scss"
 
 export const Footer = () => {
   return (
-    <footer className='row footer'>
-      <div></div>
+    <footer>
+      <div className="FooterContainer"></div>
     </footer>
   );
 };

@@ -1,0 +1,60 @@
+@import '../App.scss';
+
+.MenuContainer{
+    display: flex;
+    flex-wrap: wrap;    
+
+    &__NavBar{
+        display:flex;
+        width: 100%;
+        height: 70px;
+        background-color: $color3;
+
+        nav{
+            width: 90%;
+
+            ul{
+                display: flex;
+                list-style:none; 
+                align-items: center;
+                height: 100%;
+                width: 100%;
+            }
+
+            li{
+                display: flex;
+                align-items: center;
+                height: 80%;
+                width: 100%; 
+                button{
+                    width: 80%;
+                    height: 80%;
+                }
+                a{
+                    text-decoration:none;
+                    text-align: center; 
+                    font-size: 1.6rem;
+                    color: $color2;
+                }
+            }
+        }
+
+        div{
+            display: flex;
+            align-items: center;
+            width: 10%;
+
+        }
+
+    }
+
+    &__AreaMenu{
+        width: 100%;
+
+    }
+
+}
+
+.PedidoContainer{
+    width: 30%;
+}
