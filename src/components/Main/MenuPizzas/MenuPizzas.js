@@ -1,5 +1,4 @@
 import React from "react";
-import "./MenuPizzas.scss";
 
 export const MenuPizzas = () => {
   return (

@@ -1,11 +1,12 @@
 import React from "react";
+import logo from "../../Media/SVG/001-pizza.svg";
 import { Link } from "react-router-dom";
 
 export const MenuBar = () => {
   return (
     <>
       <div>
-        <img src="src\components\Media\PNG\001-pizza.png"></img>
+        <img src={logo} />
       </div>
       <nav>
         <ul>
